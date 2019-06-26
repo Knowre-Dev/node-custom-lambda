@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LAYER_NAME=nodejs11
+LAYER_NAME=nodejs12
 
 REGIONS='
 ap-northeast-1

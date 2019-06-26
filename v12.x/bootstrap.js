@@ -116,6 +116,7 @@ async function invokeResponse(result, context) {
 }
 
 function invokeError(err, context) {
+  console.error(err)
   return postError(`${RUNTIME_PATH}/invocation/${context.awsRequestId}/error`, err)
 }
 
